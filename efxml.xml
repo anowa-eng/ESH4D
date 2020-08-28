@@ -1,0 +1,93 @@
+<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+  <category name="Selector">
+    <block type="jqueryselector"></block>
+  </category>
+  <category name="Events">
+    <block type="event_click">
+      <value name="wehn">
+        <block type="jqueryselector">
+          <value name="NAME">
+            <block type="text">
+              <field name="TEXT">#sample</field>
+            </block>
+          </value>
+        </block>
+      </value>
+    </block>
+    <block type="block_typewh"></block>
+    <block type="firede">
+      <field name="NAME">click</field>
+      <value name="ClickInput">
+        <block type="jqueryselector">
+          <value name="NAME">
+            <block type="text">
+              <field name="TEXT">#sample</field>
+            </block>
+          </value>
+        </block>
+      </value>
+    </block>
+  </category>
+  <category name="Animation">
+    <block type="effect_1">
+      <field name="NAME">in</field>
+      <value name="fade">
+        <block type="jqueryselector">
+          <value name="NAME">
+            <block type="text">
+              <field name="TEXT">#sample</field>
+            </block>
+          </value>
+        </block>
+      </value>
+      <value name="dura">
+        <block type="math_number">
+          <field name="NUM">500</field>
+        </block>
+      </value>
+    </block>
+    <block type="effect_1">
+      <field name="NAME">out</field>
+      <value name="fade">
+        <block type="jqueryselector">
+          <value name="NAME">
+            <block type="text">
+              <field name="TEXT">#sample</field>
+            </block>
+          </value>
+        </block>
+      </value>
+      <value name="dura">
+        <block type="math_number">
+          <field name="NUM">500</field>
+        </block>
+      </value>
+    </block>
+    <block type="animation">
+      <value name="Animate">
+        <block type="jqueryselector">
+          <value name="NAME">
+            <block type="text">
+              <field name="TEXT">#sample</field>
+            </block>
+          </value>
+        </block>
+      </value>
+      <value name="With">
+        <block type="text">
+          <field name="TEXT">zoom in</field>
+        </block>
+      </value>
+    </block>
+  </category>
+  <category name="Abbreviated function names">
+    <block type="gq"></block>
+    <block type="g">
+      <value name="NAME">
+        <block type="text">
+          <field name="TEXT">sample_query</field>
+        </block>
+      </value>
+    </block>
+  </category>
+</xml>
